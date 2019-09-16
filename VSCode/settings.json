@@ -1,0 +1,40 @@
+{
+    "window.zoomLevel": 0,
+    "editor.insertSpaces": true,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "editor.minimap.enabled": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "editor.fontFamily": "Menlo",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "file-icons",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.fontWeight": "bold",
+    "editor.fontLigatures": true,
+    "workbench.fontAliasing": "auto",
+    "workbench.statusBar.feedback.visible": false,
+    "python.jediEnabled": false,
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontWeight": "500",
+    "bracket-pair-colorizer-2.highlightActiveScope": true,
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "dark-plus-syntax"
+}

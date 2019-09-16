@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "cmd+enter",
+    "command": "python.execSelectionInTerminal",
+    "when": "editorFocus && !findInputFocussed && !python.datascience.hascodecells && !replaceInputFocussed && editorLangId == 'python'"
+},
+{
+    "key": "cmd+enter",
+    "command": "python.datascience.runcurrentcelladvance",
+    "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells"
+},
+{
+    "key": "shift+enter",
+    "command": "-python.datascience.runcurrentcelladvance",
+    "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells"
+},
+{
+    "key": "shift+enter",
+    "command": "-python.execSelectionInTerminal",
+    "when": "editorFocus && !findInputFocussed && !python.datascience.hascodecells && !replaceInputFocussed && editorLangId == 'python'"
+},
+{
+    "key": "alt+cmd+0",
+    "command": "workbench.action.evenEditorWidths"
+},
+{
+    "key": "alt+cmd+m",
+    "command": "workbench.action.minimizeOtherEditors"
+},
+{
+    "key": "ctrl+\\",
+    "command": "workbench.action.joinAllGroups"
+}
+
+]
