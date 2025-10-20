@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay -q 1 /Users/struong/Documents/Sounds/wood-hammer-put-down.wav"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay -q 1 /Users/struong/Documents/Sounds/wood-hammer-put-down.wav && /Users/struong/claude-code-notifier.app/Contents/MacOS/terminal-notifier -title 'Intern Claude' -message 'Waiting for input' -ignoreDnD"
+          }
+        ]
+      }
+    ]
+  },
+  "alwaysThinkingEnabled": false
+}
